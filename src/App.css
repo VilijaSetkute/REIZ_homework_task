@@ -1,0 +1,77 @@
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.w-region {
+    width: 200px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-country {
+    width: 400px;
+}
+
+.w-area {
+    width: 140px;
+}
+.w-max {
+    max-width: 750px;
+}
+
+.sorting {
+    margin: 5px 0;
+}
+
+.selection {
+    font-size: 1rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    line-height: 1.5;
+    border: 1px solid #198754;
+    cursor: pointer;
+}
+
+.selection:hover {
+    background-color: #198754;
+    color: white;
+    border-radius: 2px;
+}
+
+.optionSet {
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #198754;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+.option {
+    padding: 3px 8px;
+}
+
+.option:hover {
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.page-link-selected, .page-link-selected:hover {
+    background-color: #198754;
+    color: white;
+}
+
+
+
