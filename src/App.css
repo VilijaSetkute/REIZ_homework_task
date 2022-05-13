@@ -3,30 +3,30 @@ ul {
     list-style-position: inside;
     padding-left: 0;
 }
-
 .w-region {
     width: 200px;
 }
-
 .w-200 {
     width: 200px;
 }
-
 .w-country {
     width: 400px;
 }
-
 .w-area {
     width: 140px;
 }
 .w-max {
     max-width: 750px;
 }
-
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 100%;
+    text-align: left;
+}
 .sorting {
     margin: 5px 0;
 }
-
 .selection {
     font-size: 1rem;
     padding: 0.375rem 0.75rem;
@@ -35,13 +35,11 @@ ul {
     border: 1px solid #198754;
     cursor: pointer;
 }
-
 .selection:hover {
     background-color: #198754;
     color: white;
     border-radius: 2px;
 }
-
 .optionSet {
     z-index: 1;
     width: 100%;
@@ -52,26 +50,61 @@ ul {
     border-radius: 5px;
     border: 1px solid #198754;
 }
-
 .hover {
     cursor: pointer;
 }
-
 .option {
     padding: 3px 8px;
 }
-
 .option:hover {
     background-color: #198754;
     color: white;
     cursor: pointer;
     border-radius: 5px;
 }
+ul li {
+    border-top: 1px solid #198754;
+    border-bottom: 1px solid #198754;
+    padding: 5px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    color: #198754;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 40px;
+    text-align: center;
+}
+ul li:first-child, ul li:last-child {
+    width: 40px;
+    text-align: center;
+}
 
-.page-link-selected, .page-link-selected:hover {
+ul li button {
+    color: #198754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li:not(:first-child):hover:not(:last-child):hover {
     background-color: #198754;
+}
+ul li:hover button {
     color: white;
 }
 
+.page-selected {
+    background-color: #198754;
+    color: white;
+}
+.hover-color:hover {
+    background-color: #198754;
+    color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 
-
+.hover-color-inactive {
+    color: lightgrey;
+    cursor: auto;
+    background-color: white;
+}

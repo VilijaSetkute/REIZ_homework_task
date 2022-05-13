@@ -6,8 +6,8 @@ import MainView from './components/MainView';
 function App() {
   return (
     <div>
-        <Toolbar />
-        <MainView />
+      <Toolbar />
+      <MainView />
     </div>
   );
 }
